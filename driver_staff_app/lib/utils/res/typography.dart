@@ -6,29 +6,25 @@ import 'res.dart';
 
 class TextStyles {
   static TextStyle newheadline1 = GoogleFonts.poppins(
-    fontSize: 20
-    ,
+    fontSize: 20,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w600,
     color: AppColors.primary500,
     height: 1.5,
   );
   static TextStyle subHeadingStyle = GoogleFonts.poppins(
-    fontSize: 16
-    ,
+    fontSize: 16,
     fontWeight: FontWeight.w400,
     color: Colors.white,
   );
   static TextStyle headingStyle = GoogleFonts.poppins(
-    fontSize: 16
-    ,
+    fontSize: 16,
     fontWeight: FontWeight.bold,
     color: Colors.white,
   );
 
   static TextStyle newheadline2 = GoogleFonts.poppins(
-    fontSize: 24
-    ,
+    fontSize: 24,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w600,
     color: AppColors.grey10,
@@ -36,8 +32,7 @@ class TextStyles {
   );
 
   static TextStyle newbody = GoogleFonts.poppins(
-    fontSize: 14
-    ,
+    fontSize: 14,
     height: 1.95,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w400,
@@ -45,8 +40,7 @@ class TextStyles {
   );
 
   static TextStyle newbody1 = GoogleFonts.poppins(
-    fontSize: 16
-    ,
+    fontSize: 16,
     // height: 1.6.w,
     height: 2.0,
     fontStyle: FontStyle.normal,
@@ -56,8 +50,7 @@ class TextStyles {
   );
 
   static TextStyle btntext = GoogleFonts.poppins(
-    fontSize: 14
-    ,
+    fontSize: 14,
     height: 1.6,
     // height: 2.0.w,
     fontStyle: FontStyle.normal,
@@ -66,8 +59,7 @@ class TextStyles {
   );
 
   static TextStyle btntext2 = GoogleFonts.poppins(
-    fontSize: 14
-    ,
+    fontSize: 14,
     height: 1.8,
     // height: 2.0.w,
     fontStyle: FontStyle.normal,
@@ -76,8 +68,7 @@ class TextStyles {
   );
 
   static TextStyle termandcon = GoogleFonts.poppins(
-    fontSize: 12
-    ,
+    fontSize: 12,
     height: 1.8,
     // height: 2.0.w,
     fontStyle: FontStyle.normal,
@@ -86,8 +77,7 @@ class TextStyles {
   );
 
   static TextStyle texterror = GoogleFonts.poppins(
-    fontSize: 12
-    ,
+    fontSize: 12,
     height: 1.8,
     // height: 2.0.w,
     fontStyle: FontStyle.normal,
@@ -97,8 +87,7 @@ class TextStyles {
   );
 
   static TextStyle logo = GoogleFonts.sourceCodePro(
-    fontSize: 24
-    ,
+    fontSize: 24,
     // height: 1.6.w,
     height: 1.0,
     fontStyle: FontStyle.normal,
@@ -107,8 +96,7 @@ class TextStyles {
   );
 
   static TextStyle logo2 = GoogleFonts.poppins(
-      fontSize: 16
-      ,
+      fontSize: 16,
       // height: 1.6.w,
       height: 1.0,
       fontStyle: FontStyle.normal,
@@ -116,12 +104,9 @@ class TextStyles {
       color: AppColors.grey50,
       letterSpacing: 1);
 
-
-
   //Light Theme data
   static TextStyle newheadlineLight2 = GoogleFonts.poppins(
-    fontSize: 24
-    ,
+    fontSize: 24,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w600,
     color: AppColors.grey600,
